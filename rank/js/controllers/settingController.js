@@ -76,8 +76,20 @@ define(['views/settingView', 'GS'], function (View, GS) {
     var modelRank = localStorage.getItem('rankPage');
 
     if(modelRank == null || modelRank == undefined) {
-      rankApp.alert('请录入积分');
+      rankApp.alert('请录入积分,积分不低于0');
       return;
+    }else{
+      var sc;
+      var array = JSON.parse(modelRank).rank;
+      for(var i=0; i<array.length; i++) {
+        sc = array[i].score;
+
+        if(sc == undefined || sc == null || sc == '') {
+          rankApp.alert('请录入积分,积分不低于0');
+          return;
+        }
+      }
+      // console.log(sc);
     }
 
     mainView.loadPage('rank.html');

@@ -11,7 +11,7 @@ define(['views/rankView', 'GS'], function (View, GS) {
     var rank = currentData.rank;
         rank = rank.sort(compare("score"));
 
-    console.log(rank);
+    // console.log(rank);
 
     // one
     $$('.one').find('em.name').html(rank[0].name);
