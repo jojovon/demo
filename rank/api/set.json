@@ -1,0 +1,22 @@
+{
+  "errorNo": 0,
+  "model": {
+
+    "set": [
+     {"id":1, "name": "Nick", "score": 0},
+      {"id":2, "name": "许云龙", "score": 0},
+      {"id":3, "name": "陈俊棋", "score": 0},
+      {"id":4, "name": "张宇", "score": 0},
+      {"id":5, "name": "李研", "score": 0},
+      {"id":6, "name": "陈泳衫", "score": 0},
+      {"id":7, "name": "魏亮亮", "score": 0},
+      {"id":8, "name": "苏安妮", "score": 0},
+      {"id":9, "name": "陈丹霞", "score": 0},
+      {"id":0, "name": "张峰石", "score": 0},
+      {"id":11, "name": "吴克赛", "score": 0},
+      {"id":12, "name": "夏天", "score": 0},
+      {"id":13, "name": "吴万华", "score": 0},
+      {"id":14, "name": "郭晓悦", "score": 0}
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+<div class="pages">
+  <div class="page no-navbar" data-page="setting">
+    <div class="page-content" id="settingContent">
+      <div class="tips">
+        本人承诺，录入姓名和成绩的时候，公平、公正、讲良心，作弊的是小狗。
+      </div>
+
+      <div class="title">
+        <em>录入分数</em>
+      </div>
+    <script id="settingTemplate" type="text/template">
+    <form id="scoreForm">
+      <div class="input-score">
+        <ul class="score-list">
+          <li class="row">
+            <div class="col-33"></div>
+            <div class="col-33">姓名</div>
+            <div class="col-33">本次得分</div>
+          </li>
+          {{#each model.set}}
+          <li class="row scores">
+            <div class="col-33 f-right">{{id}}</div>
+            <div class="col-33"><input id="name_{{id}}" class="in-name" type="text" placeholder="name" value="{{name}}"></div>
+            <div class="col-33">
+              <input id="score_{{id}}" class="in-score" type="tel" placeholder="0">
+              <input type="text" id="sub_{{id}}" style="display: none;" class="sub" value="{{score}}" >
+            </div>
+
+          </li>
+          {{/each}}
+
+        </ul>
+      </div>
+      </form>
+      <div class="content-block">
+        <a href="#" class="button button-big button-fill ok-submit">好的</a>
+      </div>
+      <div class="content-block">
+        <a href="#" class="button button-big button-fill total-submit">总排名</a>
+      </div>
+    </script>
+
+
+    </div>
+  </div>
+</div>

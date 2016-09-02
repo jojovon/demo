@@ -1,0 +1,65 @@
+<div class="pages">
+  <div class="page no-navbar" data-page="rank">
+    <div class="page-content" id="rankContent">
+      <img src="img/back.png" alt="" width="100%">
+
+
+    <div class="container">
+      <div class="award">
+        <div class="row no-gutter">
+          <div class="col-33 two">
+            <i class="cup-2"></i>
+            <em class="name">Name</em>
+            <em class="score">0分</em>
+          </div>
+          <div class="col-33 one">
+            <i class="cup-1"></i>
+            <em class="name">Name</em>
+            <em class="score">0分</em>
+
+            <img class="top" src="img/top.png" alt="" width="50%">
+          </div>
+          <div class="col-33 three">
+            <i class="cup-3"></i>
+            <em class="name">Name</em>
+            <em class="score">0分</em>
+          </div>
+
+          <div class="ganlan">
+            <img class="g-left" src="img/g-left.png" alt="" width="35%">
+            <img class="g-right" src="img/g-right.png" alt="" width="35%">
+          </div>
+
+        </div>
+
+
+
+
+        <div id="rankList" class="rank-list">
+
+
+          <script id="rankTemplate" type="text/template">
+          {{#each model.rank}}
+            <li class="rank-item">
+              <div class="row no-gutter">
+                <div class="col-33 gray sort">第<span></span>名</div>
+                <div class="col-33">{{name}}</div>
+                <div class="col-33 gray">{{score}}分</div>
+
+
+              </div>
+            </li>
+          {{/each}}
+          </script>
+
+
+        </div>
+        <img class="last" src="img/last.png" alt="" width="50%">
+
+      </div>
+    </div>
+
+
+    </div>
+</div>
+</div>

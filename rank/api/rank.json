@@ -1,0 +1,22 @@
+{
+  "errorNo": 0,
+  "model": {
+
+    "rank": [
+      {"id":1, "name": "AAA", "score": 0},
+      {"id":2, "name": "BBP", "score": 0},
+      {"id":3, "name": "BBP", "score": 0},
+      {"id":4, "name": "AAA", "score": 0},
+      {"id":5, "name": "BBP", "score": 0},
+      {"id":6, "name": "AAA", "score": 0},
+      {"id":7, "name": "AAA", "score": 0},
+      {"id":8, "name": "BBP", "score": 0},
+      {"id":9, "name": "AAA", "score": 0},
+      {"id":0, "name": "BBP", "score": 0},
+      {"id":11, "name": "BBP", "score": 0},
+      {"id":12, "name": "BBP", "score": 0},
+      {"id":13, "name": "AAA", "score": 0},
+      {"id":14, "name": "BBP", "score": 0}
+    ]
+  }
+}

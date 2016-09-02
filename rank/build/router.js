@@ -1,0 +1,1 @@
+define(["GS"],function(e){function n(){if($$(document).on("pageBeforeInit",function(e){var n=e.detail.page;i(n.name,n.query)}),e.isLogin()){var n=e.getCurrentUser();mainView.loadPage(n.node+".html")}else mainView.loadPage(e.startPage,!1)}function i(e,n){e&&require(["controllers/"+e+"Controller"],function(e){e.init(n)})}return{init:n,load:i}});
